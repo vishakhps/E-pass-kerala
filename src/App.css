@@ -43,7 +43,7 @@
   height: 100%;
   width: 100%;
   padding-top: 40px;
-  border: 1px solid red;
+
   
   
 }
@@ -139,7 +139,4 @@ h6{
   
   background-color: #9b33e6;
   
-}
-.form-box{
-  border: 1px solid red;
 }
