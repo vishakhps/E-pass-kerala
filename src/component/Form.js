@@ -98,14 +98,22 @@ export default class Form extends Component {
           <div className="h6s">
             <div className="left">
               <h6 className="h6-left">തിയതി:{this.state.mydate} </h6>
-              <h6 className="h6-left">സ്ഥലം : {this.state.myPlace}</h6>
             </div>
             <div className="right">
               <h6 className="h6-right">പേര് :{this.state.myName}</h6>
-              <h6 className="h6-right-phone">
+            </div>
+          </div>
+          <div className="h6s-2">
+          <div className="left">
+          <h6 className="h6-left">സ്ഥലം : {this.state.myPlace}</h6>
+          </div>
+          <div className="right">
+          <h6 className="h6-right-phone">
                 മൊബൈല്‍ നമ്പര്‍ :{this.state.myPhoneNumber}
               </h6>
-            </div>
+          </div>
+
+
           </div>
           </div>
         </div>

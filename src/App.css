@@ -70,15 +70,26 @@ h6{
 .h6s{
   display: flex;
   justify-content: space-between;
+  
+  width: 100%;
  
 
 }
-.left
+.h6s-2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+ 
+}
+ .left
 {
   padding-left: 30px;
 }
 .right{
-  padding-right: 90px;
+  padding-right: 30px;
+} 
+#name-1{
+  border: 1px solid red;
 }
 @media print {
   .App *
@@ -95,17 +106,30 @@ h6{
     
 
   }
-  .h6s, .h6s *{
-    padding-left: 30px;
-  }
-  .h6-right-phone, .h6-right-phone *{
+   .h6s *{
+    width: 90%;
     
-     display: inline; 
-    padding-right: 180px; 
-    overflow: hidden;
-
-
+   
   }
+  .h6s-2 *{
+    width: 100%;
+   
+  }
+  
+  
+  /* .h6-right-phone, .h6-right-phone *{
+    
+      display: inline-block; 
+     
+  
+    padding-left: 140px;
+    overflow: hidden;
+    border: 1px solid red;
+    text-align: justify;
+    text-justify: inter-word;
+
+
+  } */
 }
 .h6-left{
   text-align: left;
