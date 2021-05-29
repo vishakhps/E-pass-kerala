@@ -102,7 +102,7 @@ export default class Form extends Component {
             </div>
             <div className="right">
               <h6 className="h6-right">പേര് :{this.state.myName}</h6>
-              <h6 className="h6-right">
+              <h6 className="h6-right-phone">
                 മൊബൈല്‍ നമ്പര്‍ :{this.state.myPhoneNumber}
               </h6>
             </div>

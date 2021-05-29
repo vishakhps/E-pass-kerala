@@ -20,6 +20,7 @@ class Counter extends Component {
       <div>
         <h1>Counter</h1>
         <h4>{this.state.Counter}</h4>
+        helloo
         <button onClick={this.onIncrement}>+</button>
         <button onClick={this.onDecrement}>-</button>
       </div>
