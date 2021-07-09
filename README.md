@@ -2,7 +2,7 @@ Created with  Create React App
 
 
 ## Description
-This project was bootstrapped with [Create React App]
+This project was bootstrapped with [Create React App].
 The idea behind this app  was to make an easy way to generate  electronic pass to carry while going out during the locakdown period. 
 
 ## Demo
