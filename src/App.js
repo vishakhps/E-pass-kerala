@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className= "heading">സത്യവാങ്മൂലം CREATOR</h1>
+        <h1 className= "heading">e-സത്യവാങ്മൂലം</h1>
         {/* <Counter /> */}
         <Form />
         <Print />
